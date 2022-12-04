@@ -8,15 +8,6 @@
 						    <li class="email"><a href="mailto:20520619@gm.uit.edu.vn" title="email">Email: 20520619@gm.uit.edu.vn</a></li>
 						    <li class="phone"><a href="+84842055700" title="phone">Phone: +84 842055700</a></li>
 					    </ul><!-- flat-infomation -->
-
-					    <ul class="box-account">
-						    <li class="login">
-							    <a href="#" title="">Đăng nhập</a>
-						    </li>
-						    <li class="sign-in">
-							    <a href="#" title="">Đăng kí</a>
-						    </li>
-					    </ul><!-- box-account -->
 					    <div class="clearfix"></div><!-- clearfix -->
 				    </div><!-- col-md-12 -->
 			    </div><!-- row -->
@@ -32,45 +23,56 @@
 								<img src="../assets/images/logo/logo.png"/>
 							</router-link>
 						</div><!-- logo -->
-						<div class="flat-show-search">
-							<div class="show-search">
-                                <i class="fa fa-search"></i>                                             
-                            </div>
-                            <div class="top-search">                        
-                                <form action="#" id="searchform-all" method="get">
-                                    <div>
-                                        <input type="text" id="s" class="sss" placeholder="Tìm kiếm...">
-                                        <input type="submit" value="" id="searchsubmit">
-                                    </div>
-                                </form>
-                            </div> <!-- top-search -->
-                        </div>	<!-- flat-show-search -->
+
 						<div class="nav-wrap">
 							<div class="btn-menu">
                                 <span></span>
                             </div><!-- /mobile menu button -->
 							<nav id="mainnav" class="mainnav">
 								<ul class="menu">
-									<li class="active">
+									<li >
                                         <router-link to="/" title="">TRANG CHỦ</router-link>
+										<ul class="sub-menu">
+											<li>
+												<router-link to="/about" title="">GIỚI THIỆU</router-link>
+												<router-link to="/faqs"> FAQ</router-link>
+												<router-link to="/contact"> LIÊN HỆ</router-link>
+											</li>
+										</ul>
                                     </li>
+
                                     <li>
-                                        <router-link to="/about" title="">GIỚI THIỆU</router-link>
-                                    </li>
-                                    <li>
-										<router-link to="/results" title="">KẾT QUẢ</router-link>
+										<router-link to="/results/max3d-result" title="">KẾT QUẢ</router-link>
+										<ul class="sub-menu">
+											<li>
+												<router-link to="/results/max3d-result" title="">MAX 3D</router-link>
+												<router-link to="/results/max3d-pro-result" title="">MAX 3D PRO</router-link>
+												<router-link to="/results/mega645-result" title="">MEGA 6/45</router-link>
+												<router-link to="/results/power655-result" title="">POWER 6/55</router-link>
+											</li>
+										</ul>
 									</li>
                                     <li>
 										<router-link to="/products" title="">SẢN PHẨM</router-link>
+										<ul class="sub-menu">
+											<li>
+												<router-link to="/products/all-products" title="">CÁC SẢN PHẨM</router-link>
+												<router-link to="/products/max3d" title="">MAX 3D</router-link>
+												<router-link to="/products/max3dpro">MAX 3D PRO</router-link>
+												<router-link to="/products/mega645">MEGA 6/45</router-link>
+												<router-link to="/products/power655">POWER 6/55</router-link>
+												<router-link to="/products/product-shop">SHOP</router-link>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<router-link to="/places">ĐẠI LÝ</router-link>
 									</li>
                                     <li>
 										<router-link to="/news" title="">TIN TỨC</router-link>
 									</li>
-                                    <li>
-                                        <router-link to="/contact" title="">LIÊN HỆ</router-link>
-                                    </li>
-                                    <li>
-										<router-link to="/faqs" title="">FAQ</router-link>
+									<li>
+										<router-link to="/" title=""><i class="fa fa-shopping-cart"></i></router-link>
 									</li>
 								</ul><!-- menu -->
 							</nav><!-- mainnav -->

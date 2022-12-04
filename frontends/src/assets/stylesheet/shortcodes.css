@@ -1,36 +1,4 @@
 
-/**
-  * Error 404
-  * Flat Faqs
-  * Flat Support 
-  * Flat Address Box
-  * Flat Contact Form
-  * Flat Recent Market
-  * Flat Price Coin
-  * Flat Counter
-  * Flat Counter Style1
-  * Flat Counter Style2
-  * Flat Team
-  * Flat Call Back
-  * Flat Work
-  * Flat Our Work 
-  * Flat Why Choose
-  * Flat Why Choose Style1
-  * Flat Pricing
-  * Flat Testimonial
-  * Flat News
-  * Flat Our Work Style1
-  * Flat Our Work Style2
-  * Flat About
-  * Flat About Style1
-  * Flat Recent Market Style2
-  * Flat Why Choose Style2
-  * Flat Why Choose Style3
-  * Flat Testimonial Style1
-  * Flat Our Work Style3
-  * Flat Work Style1
-*/
-
 /* Error 404 
 -------------------------------------------------------------- */
 .error-404 {
@@ -558,13 +526,24 @@
     line-height: 39px;
     text-align: center;
     border: 1px solid #c1c1c1;
-    border-radius: 50%;
 }
 
 .team-member .team-info .social li a:hover {
     border-color: #f1a619;
     background-color: #f1a619;
     color: #fff;
+}
+
+.social li a {
+    color: #c1c1c1;
+    display: block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 39px;
+    text-align: center;
+    border: 1px solid #c1c1c1;
+    padding-left: 3px;
 }
 
 /* Team Member Style1 */
@@ -1255,9 +1234,9 @@ article.main-post.news .entry-content .meta-left li {
 
 /* Flat About
 -------------------------------------------------------------- */
-.flat-about {
+/* .flat-about {
     padding: 100px 0;
-}
+} */
 
 .wrap-recent-text.style1 {
     padding-left: 70px;

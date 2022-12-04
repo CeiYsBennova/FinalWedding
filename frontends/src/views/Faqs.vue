@@ -1,12 +1,11 @@
 .<template>
-  <div>
-    <section class="flat-faqs">
+    <div class="flat-faqs">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
 						<div class="accordion">
 							<div class="accordion-toggle">
-								<div class="toggle-title active">
+								<div class="toggle-title">
 									Jackterry là cái quái quỷ gì?
 								</div>
 								<div class="toggle-content">
@@ -92,9 +91,7 @@
 					</div><!-- /.col-md-12 -->
 				</div><!-- /.row -->
 			</div><!-- /.container -->
-		</section><!-- /.flat-faqs -->
-
-  </div>
+		</div><!-- /.flat-faqs -->
 </template>
 
 <script>
@@ -103,6 +100,52 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.flat-faqs {
+    padding: 109px 0 100px;
+}
 
-</style>
+/* Accordion */
+.accordion .accordion-toggle {
+    padding-left: 70px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.accordion .accordion-toggle:last-child {
+    margin-bottom: 0;
+}
+
+.accordion .accordion-toggle .toggle-title {
+    font-size: 16px;
+    color: #181818;
+    position: relative;
+    cursor: pointer;
+    letter-spacing: -0.2px;
+}
+
+.accordion .accordion-toggle .toggle-title:before {
+    content: '+';
+    position: absolute;
+    font-size: 30px;
+    font-weight: 300;
+    height: 40px;
+    width: 40px;
+    line-height: 38px;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    text-align: center;
+    left: -70px;
+    top: -9px;
+}
+
+.accordion .accordion-toggle .toggle-title.active:before {
+    content: '-';
+}
+
+.accordion .accordion-toggle .toggle-content {
+    margin-top: 27px;
+    line-height: 24px;
+}
+</style>>

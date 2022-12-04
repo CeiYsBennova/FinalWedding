@@ -1,4 +1,4 @@
-@import url("font-awesome.css");
+
 @import url("elegant.css");
 @import url("themify-icons.css");
 @import url("shortcodes.css");
@@ -1116,7 +1116,7 @@ ul.box-account li.sign-in:before {
 	text-align: center;
 	border-radius: 50%;
 	border: 1px solid #494949;
-	color: #fff;
+	color: rgb(188, 38, 38);
 }
 
 .widget_themesflat_socials .themesflat-shortcode-socials li a:hover {

@@ -54,26 +54,28 @@
 							<h2>Liên hệ với chúng tôi</h2>
 							<p>Chúng tôi sẽ cố phản hồi nhanh nhất có thể</p>
 						</div>
-						<div class="form-contact-form">
-							<form id="contactform" action="./contact/contact-process.php" method="post" accept-charset="utf-8">
-								<div id="subscribe-content-1">
-									<div class="field-row">
-										<div class="contact-form-name contact-form">
-											<input type="text" name="name" id="name" placeholder="Họ tên" required="" />
-										</div>
-										<div class="contact-form-email contact-form">
-											<input type="text" name="email" id="email" placeholder="Email" required="" />
-										</div>
-									</div>
-									<div class="contact-form-comment contact-form">
-										<textarea name="message" id="message" placeholder="Tin nhắn" required=""></textarea>
-									</div>
-									<div class="btn-contact-form center">
-										<button type="submit" class="flat-button-form border-radius-2">GỬI</button>
-									</div>
+						
+						<form @submit.prevent="sendContact">
+							<div class="form-group row">
+								<div class="col-md-6">
+									<input type="text" class="form-control" placeholder="Họ và tên" v-model="message.name">
 								</div>
-							</form><!-- /form -->
-						</div><!-- /.form-contact-form -->
+								<div class="col-md-6">
+									<input type="email" class="form-control" placeholder="Email" v-model="message.email">
+								</div>
+
+								<div class="col-md-12">
+									<!-- <input type="text" class="form-control" placeholder="Nội dung" v-model="message.message"> -->
+									<textarea class="form-control" placeholder="Nội dung" v-model="message.message" cols="30" rows="10"></textarea>
+								</div>
+
+								<div class="col-md-5"></div>
+								<div class="col-md-2">
+									<button class="btn btn-success"> Gửi</button>
+								</div>
+								<div class="col-md-5"></div>
+							</div>
+						</form>
 					</div><!-- /.col-md-12 -->
 				</div><!-- /.row -->
 			</div><!-- /.container -->
@@ -83,10 +85,48 @@
 
 <script>
 export default {
-    name: 'Contact'
+    name: 'Contact',
+	data() {
+		return {
+			message:{
+				name: '',
+				email: '',
+				message: '',
+			},
+			messages: [],
+		}
+	},
+	methods: {
+		async sendContact() {
+			await fetch('http://127.0.0.1:8000/api/contact/', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json'
+				},
+				body: JSON.stringify(this.message)
+			})
+		}
+	},
 }
 </script>
 
-<style>
+<style scoped>
+.form-group .col-md-6 {
+	padding-bottom: 30px;
+}
+.form-group .col-md-12 {
+	padding-bottom: 30px;
+}
+.form-group .col-md-12 .form-control {
+	height: 200px;
+	text-align: start;
+}
 
+.btn-success {
+	background-color: #f9a825;
+	border-color: #f9a825;
+}
+.btn {
+	width: 400%;
+}
 </style>

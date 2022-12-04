@@ -1,5 +1,5 @@
-.<template>
-    <h1>News</h1>
+<template>
+    <div></div>
 </template>
 
 <script>
@@ -8,6 +8,9 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+
+
+
 
 </style>

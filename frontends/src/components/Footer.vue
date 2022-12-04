@@ -64,7 +64,7 @@
 									<div class="widget widget_themesflat_socials">            
 										<ul class="themesflat-shortcode-socials">
 									        <li class="facebook">
-						                        <a href="https://facebook.com/" target="_blank" rel="alternate" title="">
+						                        <a href="https://facebook.com/"  rel="alternate" title="">
 						                            <i class="fa fa-facebook"></i>                            
 						                        </a>
 						                    </li>
@@ -134,6 +134,11 @@
 <script>
 export default {
     name: 'Footer',
+	methods: {
+		scrollToTop: function() {
+			window.scrollTo(0, 0);
+		}
+	},
 }
 </script>
 
