@@ -1,618 +1,6 @@
 <template>
   <div class="Ketqua">
     <div class="container">
-        <div class="box_ketqua box_max3d">
-            <div class="row">
-                <div class="zone col-md-2">
-                    <img src="../assets/images/products/max3d.jpg" alt="Max 3d">
-                </div>
-
-                <div class="zone col-md-7 border_left_right">
-                    <div class="box_ketqua_noidung" v-for="max3dresult in max3dresults" :key="max3dresult.id">
-                        <div v-if="max3dresult.id == max3dresults.length">
-                            <h5>Kết quả Max 3D Pro kỳ <strong>#{{ max3dresult.id }}</strong> ngày <strong>{{ max3dresult.ngayQuay }}</strong></h5>
-                        </div>
-                    </div>
-
-                    <div class="day_so_ket_qua">
-                        <h5 style="margin-left:-10px"> Giải Đặc Biệt</h5>
-                        <div class="row" style="padding-top:2px;padding-bottom:2px">
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dresult in max3dresults" :key="max3dresult.id">
-                                        <div v-if="max3dresult.id == max3dresults.length">
-                                            <span>
-                                                {{ max3dresult.giaiDacBiet1}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dresult in max3dresults" :key="max3dresult.id">
-                                        <div v-if="max3dresult.id == max3dresults.length">
-                                            <span>
-                                                {{ max3dresult.giaiDacBiet2}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <h5 style="margin-left:-10px"> Giải Nhất</h5>
-                        <div class="row" style="padding-top:2px;padding-bottom:2px">
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dresult in max3dresults" :key="max3dresult.id">
-                                        <div v-if="max3dresult.id == max3dresults.length">
-                                            <span>
-                                                {{ max3dresult.giaiNhat1}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dresult in max3dresults" :key="max3dresult.id">
-                                        <div v-if="max3dresult.id == max3dresults.length">
-                                            <span>
-                                                {{ max3dresult.giaiNhat2}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dresult in max3dresults" :key="max3dresult.id">
-                                        <div v-if="max3dresult.id == max3dresults.length">
-                                            <span>
-                                                {{ max3dresult.giaiNhat3}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dresult in max3dresults" :key="max3dresult.id">
-                                        <div v-if="max3dresult.id == max3dresults.length">
-                                            <span>
-                                                {{ max3dresult.giaiNhat4}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <h5 style="margin-left:-10px"> Giải Nhì</h5>
-                        <div class="row" style="padding-top:2px;padding-bottom:2px">
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dresult in max3dresults" :key="max3dresult.id">
-                                        <div v-if="max3dresult.id == max3dresults.length">
-                                            <span>
-                                                {{ max3dresult.giaiNhi1}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dresult in max3dresults" :key="max3dresult.id">
-                                        <div v-if="max3dresult.id == max3dresults.length">
-                                            <span>
-                                                {{ max3dresult.giaiNhi2}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dresult in max3dresults" :key="max3dresult.id">
-                                        <div v-if="max3dresult.id == max3dresults.length">
-                                            <span>
-                                                {{ max3dresult.giaiNhi3}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dresult in max3dresults" :key="max3dresult.id">
-                                        <div v-if="max3dresult.id == max3dresults.length">
-                                            <span>
-                                                {{ max3dresult.giaiNhi4}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row" style="padding-top:2px;padding-bottom:2px">
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dresult in max3dresults" :key="max3dresult.id">
-                                        <div v-if="max3dresult.id == max3dresults.length">
-                                            <span>
-                                                {{ max3dresult.giaiNhi5}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dresult in max3dresults" :key="max3dresult.id">
-                                        <div v-if="max3dresult.id == max3dresults.length">
-                                            <span>
-                                                {{ max3dresult.giaiNhi6}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dresult in max3dresults" :key="max3dresult.id">
-                                        <div v-if="max3dresult.id == max3dresults.length">
-                                            <span>
-                                                {{ max3dresult.giaiNhi7}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dresult in max3dresults" :key="max3dresult.id">
-                                        <div v-if="max3dresult.id == max3dresults.length">
-                                            <span>
-                                                {{ max3dresult.giaiNhi8}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <h5 style="margin-left:-10px"> Giải Ba</h5>
-                        <div class="row" style="padding-top:2px;padding-bottom:2px">
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dresult in max3dresults" :key="max3dresult.id">
-                                        <div v-if="max3dresult.id == max3dresults.length">
-                                            <span>
-                                                {{ max3dresult.giaiBa1}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dresult in max3dresults" :key="max3dresult.id">
-                                        <div v-if="max3dresult.id == max3dresults.length">
-                                            <span>
-                                                {{ max3dresult.giaiBa2}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dresult in max3dresults" :key="max3dresult.id">
-                                        <div v-if="max3dresult.id == max3dresults.length">
-                                            <span>
-                                                {{ max3dresult.giaiBa3}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dresult in max3dresults" :key="max3dresult.id">
-                                        <div v-if="max3dresult.id == max3dresults.length">
-                                            <span>
-                                                {{ max3dresult.giaiBa4}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row" style="padding-top:2px;padding-bottom:2px">
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dresult in max3dresults" :key="max3dresult.id">
-                                        <div v-if="max3dresult.id == max3dresults.length">
-                                            <span>
-                                                {{ max3dresult.giaiBa5}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dresult in max3dresults" :key="max3dresult.id">
-                                        <div v-if="max3dresult.id == max3dresults.length">
-                                            <span>
-                                                {{ max3dresult.giaiBa6}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dresult in max3dresults" :key="max3dresult.id">
-                                        <div v-if="max3dresult.id == max3dresults.length">
-                                            <span>
-                                                {{ max3dresult.giaiBa7}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dresult in max3dresults" :key="max3dresult.id">
-                                        <div v-if="max3dresult.id == max3dresults.length">
-                                            <span>
-                                                {{ max3dresult.giaiBa8}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <p>Các con số dự thưởng phải trùng với số kết quả theo đúng thứ tự</p>
-                    <p>Truyền Hình Trực Tiếp Trên Kênh VTC3</p>
-                    <p>Từ 18h00 – 18h30 Thứ 3 - Thứ 5 - Thứ 7</p>
-                </div>
-
-                <div class="zone col-md-3">
-
-                </div>
-            </div>
-        </div>
-
-        <div class="box_ketqua box_max3dpro">
-            <div class="row">
-                <div class="zone col-md-2">
-                    <img src="../assets/images/products/logomax3dpro.png" alt="Max 3d Pro">
-                </div>
-
-                <div class="zone col-md-7 border_left_right">
-                    <div class="box_ketqua_noidung" v-for="max3dpro in max3dpros" :key="max3dpro.id">
-                        <div v-if="max3dpro.id == max3dpros.length">
-                            <h5>Kết quả Max 3D Pro kỳ <strong>#{{ max3dpro.id }}</strong> ngày <strong>{{ max3dpro.ngayQuay }}</strong></h5>
-                        </div>
-                    </div>
-
-                    <div class="day_so_ket_qua">
-                        <h5 style="margin-left:-10px"> Giải Đặc Biệt</h5>
-                        <div class="row" style="padding-top:2px;padding-bottom:2px">
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dpro in max3dpros" :key="max3dpro.id">
-                                        <div v-if="max3dpro.id == max3dpros.length">
-                                            <span>
-                                                {{ max3dpro.giaiDacBiet1}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dpro in max3dpros" :key="max3dpro.id">
-                                        <div v-if="max3dpro.id == max3dpros.length">
-                                            <span>
-                                                {{ max3dpro.giaiDacBiet2}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <h5 style="margin-left:-10px"> Giải Nhất</h5>
-                        <div class="row" style="padding-top:2px;padding-bottom:2px">
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dpro in max3dpros" :key="max3dpro.id">
-                                        <div v-if="max3dpro.id == max3dpros.length">
-                                            <span>
-                                                {{ max3dpro.giaiNhat1}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dpro in max3dpros" :key="max3dpro.id">
-                                        <div v-if="max3dpro.id == max3dpros.length">
-                                            <span>
-                                                {{ max3dpro.giaiNhat2}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dpro in max3dpros" :key="max3dpro.id">
-                                        <div v-if="max3dpro.id == max3dpros.length">
-                                            <span>
-                                                {{ max3dpro.giaiNhat3}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dpro in max3dpros" :key="max3dpro.id">
-                                        <div v-if="max3dpro.id == max3dpros.length">
-                                            <span>
-                                                {{ max3dpro.giaiNhat4}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <h5 style="margin-left:-10px"> Giải Nhì</h5>
-                        <div class="row" style="padding-top:2px;padding-bottom:2px">
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dpro in max3dpros" :key="max3dpro.id">
-                                        <div v-if="max3dpro.id == max3dpros.length">
-                                            <span>
-                                                {{ max3dpro.giaiNhi1}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dpro in max3dpros" :key="max3dpro.id">
-                                        <div v-if="max3dpro.id == max3dpros.length">
-                                            <span>
-                                                {{ max3dpro.giaiNhi2}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dpro in max3dpros" :key="max3dpro.id">
-                                        <div v-if="max3dpro.id == max3dpros.length">
-                                            <span>
-                                                {{ max3dpro.giaiNhi3}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dpro in max3dpros" :key="max3dpro.id">
-                                        <div v-if="max3dpro.id == max3dpros.length">
-                                            <span>
-                                                {{ max3dpro.giaiNhi4}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row" style="padding-top:2px;padding-bottom:2px">
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dpro in max3dpros" :key="max3dpro.id">
-                                        <div v-if="max3dpro.id == max3dpros.length">
-                                            <span>
-                                                {{ max3dpro.giaiNhi5}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dpro in max3dpros" :key="max3dpro.id">
-                                        <div v-if="max3dpro.id == max3dpros.length">
-                                            <span>
-                                                {{ max3dpro.giaiNhi6}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dpro in max3dpros" :key="max3dpro.id">
-                                        <div v-if="max3dpro.id == max3dpros.length">
-                                            <span>
-                                                {{ max3dpro.giaiNhi7}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dpro in max3dpros" :key="max3dpro.id">
-                                        <div v-if="max3dpro.id == max3dpros.length">
-                                            <span>
-                                                {{ max3dpro.giaiNhi8}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <h5 style="margin-left:-10px"> Giải Ba</h5>
-                        <div class="row" style="padding-top:2px;padding-bottom:2px">
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dpro in max3dpros" :key="max3dpro.id">
-                                        <div v-if="max3dpro.id == max3dpros.length">
-                                            <span>
-                                                {{ max3dpro.giaiBa1}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dpro in max3dpros" :key="max3dpro.id">
-                                        <div v-if="max3dpro.id == max3dpros.length">
-                                            <span>
-                                                {{ max3dpro.giaiBa2}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dpro in max3dpros" :key="max3dpro.id">
-                                        <div v-if="max3dpro.id == max3dpros.length">
-                                            <span>
-                                                {{ max3dpro.giaiBa3}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dpro in max3dpros" :key="max3dpro.id">
-                                        <div v-if="max3dpro.id == max3dpros.length">
-                                            <span>
-                                                {{ max3dpro.giaiBa4}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row" style="padding-top:2px;padding-bottom:2px">
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dpro in max3dpros" :key="max3dpro.id">
-                                        <div v-if="max3dpro.id == max3dpros.length">
-                                            <span>
-                                                {{ max3dpro.giaiBa5}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dpro in max3dpros" :key="max3dpro.id">
-                                        <div v-if="max3dpro.id == max3dpros.length">
-                                            <span>
-                                                {{ max3dpro.giaiBa6}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dpro in max3dpros" :key="max3dpro.id">
-                                        <div v-if="max3dpro.id == max3dpros.length">
-                                            <span>
-                                                {{ max3dpro.giaiBa7}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <div class="day_so_ket_qua_v2">
-                                    <div v-for="max3dpro in max3dpros" :key="max3dpro.id">
-                                        <div v-if="max3dpro.id == max3dpros.length">
-                                            <span>
-                                                {{ max3dpro.giaiBa8}}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <p>Các con số dự thưởng phải trùng với số kết quả theo đúng thứ tự</p>
-                    <p>Truyền Hình Trực Tiếp Trên Kênh VTC3</p>
-                    <p>Từ 18h00 – 18h30 Thứ 3 - Thứ 5 - Thứ 7</p>
-                </div>
-
-                <div class="zone col-md-3">
-
-                </div>
-            </div>
-        </div>
-
         <div class="box_ketqua box_mega645">
             <div class="row">
                 <div class="zone col-md-2">
@@ -624,24 +12,24 @@
                         <div class="tong_tien" v-if="power655.id == power655s.length">
                             <div class="row">
                                 <div class="col-sm-6">
-                                    <p>Jackpot 1 Power 6/55 ước tính</p>
+                                    <p><b>Jackpot 1 Power 6/55 ước tính</b></p>
                                     <div class="so_tien">
                                         <h3>{{ power655.jackpot1 }}</h3>
-                                        <p>VNĐ</p>
+                                        <p style="display:inline">VNĐ</p>
                                     </div>
                                 </div>
 
                                 <div class="col-sm-6">
-                                    <p>Jackpot 2 Power 6/55 ước tính</p>
+                                    <p><b>Jackpot 2 Power 6/55 ước tính</b></p>
                                     <div class="so_tien">
                                         <h3>{{ power655.jackpot2 }}</h3>
-                                        <p>VNĐ</p>
+                                        <p style="display:inline">VNĐ</p>
                                     </div>
                                 </div>
                             </div>
 
-                            <div>
-                                 <h5>Kết quả Power 6/55 kỳ <strong>#{{ power655.id }}</strong> ngày <strong>{{ power655.ngayQuay }}</strong></h5>
+                            <div style="font-size:18px;">
+                                 <p>Kết quả Power 6/55 kỳ <strong>#{{ power655.id }}</strong> ngày <strong>{{ power655.ngayQuay }}</strong></p>
                             </div>
 
                             <div class="day_so_ket_qua_v2">
@@ -678,17 +66,17 @@
                         <div class="tong_tien" v-if="mega645.id == mega645s.length">
                             <div class="row">
                                 <div class="col-sm-6">
-                                    <p>Jackpot 1 Power 6/55 ước tính</p>
+                                    <p><b>Jackpot 1 Power 6/55 ước tính</b></p>
                                     <div class="so_tien">
                                         <h3>{{ mega645.jackpot }}</h3>
-                                        <p>VNĐ</p>
+                                        <p style="display:inline">VNĐ</p>
                                     </div>
                                 </div>
 
                             </div>
 
-                            <div>
-                                 <h5>Kết quả Power 6/55 kỳ <strong>#{{ mega645.id }}</strong> ngày <strong>{{ mega645.ngayQuay }}</strong></h5>
+                            <div style="font-size:18px;">
+                                 <p>Kết quả Power 6/55 kỳ <b>#{{ mega645.id }}</b> ngày <b>{{ mega645.ngayQuay }}</b></p>
                             </div>
 
                             <div class="day_so_ket_qua_v2">
@@ -702,8 +90,8 @@
                         </div>
                     </div>
                     <p>Các con số dự thưởng phải trùng với số kết quả nhưng không cần theo đúng thứ tự</p>
-                    <p>Truyền Hình Trực Tiếp Trên Kênh VTC3</p>
-                    <p>Từ 18h00 – 18h30 Thứ 3 - Thứ 5 - Thứ 7</p>
+                    <p><b>Truyền Hình Trực Tiếp Trên Kênh VTC3</b></p>
+                    <p><b>Từ 18h00 – 18h30 Thứ 3 - Thứ 5 - Thứ 7</b></p>
                 </div>
 
                 <div class="zone col-md-3">
@@ -720,62 +108,6 @@ export default {
     name: 'Home',
     data() {
         return {
-            max3dresult:{
-                id : '',
-                ngayQuay : '',
-                giaiDacBiet1 : '',
-                giaiDacBiet2 : '',
-                giaiNhat1 : '',
-                giaiNhat2 : '',
-                giaiNhat3 : '',
-                giaiNhat4 : '',
-                giaiNhi1 : '',
-                giaiNhi2 : '',
-                giaiNhi3 : '',
-                giaiNhi4 : '',
-                giaiNhi5 : '',
-                giaiNhi6 : '',
-                giaiNhi7 : '',
-                giaiNhi8 : '',
-                giaiBa1 : '',
-                giaiBa2 : '',
-                giaiBa3 : '',
-                giaiBa4 : '',
-                giaiBa5 : '',
-                giaiBa6 : '',
-                giaiBa7 : '',
-                giaiBa8 : '',
-            },
-            max3dresults: [],
-
-            max3dpro: {
-                id : '',
-                ngayQuay : '',
-                giaiDacBiet1 : '',
-                giaiDacBiet2 : '',
-                giaiNhat1 : '',
-                giaiNhat2 : '',
-                giaiNhat3 : '',
-                giaiNhat4 : '',
-                giaiNhi1 : '',
-                giaiNhi2 : '',
-                giaiNhi3 : '',
-                giaiNhi4 : '',
-                giaiNhi5 : '',
-                giaiNhi6 : '',
-                giaiNhi7 : '',
-                giaiNhi8 : '',
-                giaiBa1 : '',
-                giaiBa2 : '',
-                giaiBa3 : '',
-                giaiBa4 : '',
-                giaiBa5 : '',
-                giaiBa6 : '',
-                giaiBa7 : '',
-                giaiBa8 : '',
-            },
-            max3dpros: [],
-
             power655:{
                 id : '',
                 jackpot1 : '',
@@ -806,12 +138,6 @@ export default {
         }   
     },
     async created() {
-        const max3dresponse = await fetch('http://127.0.0.1:8000/api/max3d/');
-        this.max3dresults = await max3dresponse.json();
-
-        const max3dproresponse = await fetch('http://127.0.0.1:8000/api/max3dpro/');
-        this.max3dpros = await max3dproresponse.json();
-
         const power655response = await fetch('http://127.0.0.1:8000/api/power655/');
         this.power655s = await power655response.json();
 
@@ -846,6 +172,7 @@ export default {
 .border_left_right{
     border-left: 1px solid black;
     border-right: 1px solid black;
+    padding-left: 60px;
 }
 
 .day_so_ket_qua{
@@ -867,25 +194,16 @@ export default {
 .col-xs-3{
     width: 25%;
 }
-
-/* line before */
-/* .box_max3d::before {
-    background: url('../assets/images/products/linemax3d.jpg') no-repeat;
-}
-.box_max3d::before{
-    content: "";
-    position: absolute; 
-    top: auto;
-    width: 75%;
-    height: 20px;
-    padding-bottom: 10px;
-} */
-
 .so_tien{
-    color: red;
+    color: rgb(167, 39, 39);;
     margin-bottom: 20px;
 }
-
+.so_tien h3 {
+    display: inline-block;
+    margin: 0px 3px 6px 0;
+    font-size: 30px;
+    color: rgb(167, 39, 39);
+}
 .day_so_ket_qua_v2 .bong_tron.small {
     font-size: 18px;
     padding: 6px;
@@ -896,7 +214,8 @@ export default {
 .day_so_ket_qua_v2 .bong_tron{
     border-radius: 50%;
     border: red 2px solid;
-    margin-right: 5px;
+    margin-right: 10px;
+    margin-top: 20px;
 }
 .day_so_ket_qua_v2 .bong_tron-sperator{
     font-size: 25px;

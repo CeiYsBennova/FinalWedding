@@ -1,9 +1,4 @@
 <template>
-    <div class="global_navigation">
-    <div class="global_navigation_banner">
-        
-    </div>    
-  </div>
 
   <div>
     <div class="gioithieu_banner">
@@ -550,11 +545,6 @@ export default {
 </script>
 
 <style scoped>
-.global_navigation .global_navigation_banner{
-    background: url('../../assets/images/background/global_navigation_bg.jpg') no-repeat center center;
-    background-size: cover;
-    min-height: 130px;
-}
 .gioithieu_banner{
     background: url('../../assets/images/background/choi_gioithieu.jpg') no-repeat center center;
     background-size: cover;

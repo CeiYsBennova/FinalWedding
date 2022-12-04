@@ -45,8 +45,6 @@
 										<router-link to="/results/max3d-result" title="">KẾT QUẢ</router-link>
 										<ul class="sub-menu">
 											<li>
-												<router-link to="/results/max3d-result" title="">MAX 3D</router-link>
-												<router-link to="/results/max3d-pro-result" title="">MAX 3D PRO</router-link>
 												<router-link to="/results/mega645-result" title="">MEGA 6/45</router-link>
 												<router-link to="/results/power655-result" title="">POWER 6/55</router-link>
 											</li>
@@ -56,12 +54,8 @@
 										<router-link to="/products" title="">SẢN PHẨM</router-link>
 										<ul class="sub-menu">
 											<li>
-												<router-link to="/products/all-products" title="">CÁC SẢN PHẨM</router-link>
-												<router-link to="/products/max3d" title="">MAX 3D</router-link>
-												<router-link to="/products/max3dpro">MAX 3D PRO</router-link>
 												<router-link to="/products/mega645">MEGA 6/45</router-link>
 												<router-link to="/products/power655">POWER 6/55</router-link>
-												<router-link to="/products/product-shop">SHOP</router-link>
 											</li>
 										</ul>
 									</li>
@@ -70,9 +64,6 @@
 									</li>
                                     <li>
 										<router-link to="/news" title="">TIN TỨC</router-link>
-									</li>
-									<li>
-										<router-link to="/" title=""><i class="fa fa-shopping-cart"></i></router-link>
 									</li>
 								</ul><!-- menu -->
 							</nav><!-- mainnav -->

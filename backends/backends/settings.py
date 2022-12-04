@@ -39,8 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
-    'max3d',
-    'max3dpro',
     'power655',
     'mega645',
     'contact',

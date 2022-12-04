@@ -52,7 +52,7 @@
 									<ul class="contact-list">
 										<li>
 											
-											Address: <span style="color: black">Linh Trung Thủ Đức Thành phố Hồ Chí Minh</span>
+											Address: <span style="color: black">Linh Trung Thủ Đức TP Hồ Chí Minh</span>
 										</li>
 										<li>
 											Phone: <span style="color: black">+84 842055700</span>
