@@ -142,13 +142,13 @@
 
 <script>
 export default {
-    name: 'News'
+    name: 'News4',
 }
 </script>
 
 <style scoped>
 .global_navigation .global_navigation_banner{
-    background: url('../assets/images/background/global_navigation_bg.jpg') no-repeat center center;
+    background: url('../../assets/images/background/global_navigation_bg.jpg') no-repeat center center;
     background-size: cover;
     min-height: 130px;
 }

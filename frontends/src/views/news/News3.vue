@@ -115,23 +115,24 @@
                             </div>
                             <div class="col-sm-1"></div>
                     </div>
+
                     <nav aria-label="Page navigation example">
                         <ul class="pagination justify-content-center">
                           <li class="page-item">
-                                <router-link class="page-link" to="/news/news5">«</router-link>
+                                <router-link class="page-link" to="/news/news2">«</router-link>
                           </li>
                           <li class="page-item">
-                                <router-link class="page-link" to="/news">1</router-link>
+                                <router-link class="page-link" to="/news/news3">3</router-link>
                           </li>
 
                           <li class="page-item">
-                                <router-link class="page-link" to="/news/news1">2</router-link>
+                                <router-link class="page-link" to="/news/news4">4</router-link>
                           </li>
                           <li class="page-item">
-                                <router-link class="page-link" to="/news/news2">3</router-link>
+                                <router-link class="page-link" to="/news/news5">5</router-link>
                           </li>
                           <li class="page-item">
-                                <router-link class="page-link" to="/news/news3">»</router-link>
+                                <router-link class="page-link" to="/news">»</router-link>
                           </li>
                         </ul>
                     </nav>
@@ -142,13 +143,13 @@
 
 <script>
 export default {
-    name: 'News'
+    name: 'News3',
 }
 </script>
 
 <style scoped>
 .global_navigation .global_navigation_banner{
-    background: url('../assets/images/background/global_navigation_bg.jpg') no-repeat center center;
+    background: url('../../assets/images/background/global_navigation_bg.jpg') no-repeat center center;
     background-size: cover;
     min-height: 130px;
 }
