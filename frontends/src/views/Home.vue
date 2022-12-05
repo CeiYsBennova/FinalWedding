@@ -7,7 +7,7 @@
                     <img src="../assets/images/products/Power655.png" alt="Power 6/55">
                 </div>
 
-                <div class="zone col-md-7 border_left_right">
+                <div class="zone col-md-6 border_left_right">
                     <div class="box_ketqua_noidung" v-for="power655 in power655s" :key="power655.id">
                         <div class="tong_tien" v-if="power655.id == power655s.length">
                             <div class="row">
@@ -49,8 +49,11 @@
                     <p>Từ 18h00 – 18h30 Thứ 3 - Thứ 5 - Thứ 7</p>
                 </div>
 
-                <div class="zone col-md-3">
-
+                <div class="zone col-md-4" style="text-align:center; padding-top:10px;">
+                    <h3><b>Kỳ QSMT tiếp theo diễn ra sau</b></h3>
+                    <div style="padding-top:30px">
+                        <CountdownTimer/>
+                    </div>
                 </div>
             </div>
         </div>
@@ -61,7 +64,7 @@
                     <img src="../assets/images/products/mega645.png" alt="Mega 6/45">
                 </div>
 
-                <div class="zone col-md-7 border_left_right">
+                <div class="zone col-md-6 border_left_right">
                     <div class="box_ketqua_noidung" v-for="mega645 in mega645s" :key="mega645.id">
                         <div class="tong_tien" v-if="mega645.id == mega645s.length">
                             <div class="row">
@@ -94,8 +97,11 @@
                     <p><b>Từ 18h00 – 18h30 Thứ 3 - Thứ 5 - Thứ 7</b></p>
                 </div>
 
-                <div class="zone col-md-3">
-
+                <div class="zone col-md-4" style="text-align:center; padding-top:10px;">
+                    <h3><b>Kỳ QSMT tiếp theo diễn ra sau</b></h3>
+                    <div style="padding-top:30px">
+                        <CountdownTimer/>
+                    </div>
                 </div>
             </div>
         </div>
@@ -104,8 +110,13 @@
 </template>
 
 <script>
+import CountdownTimer from '../components/Countdown.vue'
+
 export default {
     name: 'Home',
+    components: {
+        CountdownTimer,
+    },
     data() {
         return {
             power655:{
@@ -172,7 +183,7 @@ export default {
 .border_left_right{
     border-left: 1px solid black;
     border-right: 1px solid black;
-    padding-left: 60px;
+    padding-left: 30px;
 }
 
 .day_so_ket_qua{
