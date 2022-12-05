@@ -1,7 +1,10 @@
 <template>
+<<<<<<< HEAD
     <div class="global_navigation">
         
     </div>    
+=======
+>>>>>>> 1d25a11abb97b9aa770fdcb7281450a49d0d7833
 
   <div>
     <div class="gioithieu_banner">
@@ -465,7 +468,10 @@ export default {
 </script>
 
 <style scoped>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1d25a11abb97b9aa770fdcb7281450a49d0d7833
 .gioithieu_banner{
     background: url('../../assets/images/background/choi_gioithieu.jpg') no-repeat center center;
     background-size: cover;

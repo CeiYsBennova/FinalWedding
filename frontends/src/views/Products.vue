@@ -4,7 +4,7 @@
       <div class="card">
         <div class="face face1">
           <div class="content">
-            <img src="../assets/images/slide/bapngo.png" alt="" />
+            <img src="../assets/images/people/Long.jpg" alt="" />
           </div>
         </div>
         <div class="face face2">
@@ -76,7 +76,7 @@ export default {
 
 .container .card .face.face1 {
   position: relative;
-  background: #333;
+  background: rgba(255, 255, 255, 0.97);
   display: flex;
   justify-content: center;
   align-content: center;

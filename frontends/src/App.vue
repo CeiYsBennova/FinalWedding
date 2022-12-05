@@ -45,9 +45,14 @@ export default {
 
 <style>
 #app {
+<<<<<<< HEAD
   font-family: Arial, Helvetica, sans-serif;
+=======
+  font-family: MyriadPro_Regular;
+>>>>>>> 1d25a11abb97b9aa770fdcb7281450a49d0d7833
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+  font-size: 16px;
 }
 </style>
