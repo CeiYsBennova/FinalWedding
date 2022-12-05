@@ -14,32 +14,6 @@ export default {
     Navbar,
     Footer
   },
- /*  data () {
-    return {
-      onlystudent: {
-        name: '',
-        age: '',
-        email: ''
-      },
-      students: []
-    }
-  },
-  async created(){
-    var response = await fetch('http://localhost:8000/api/students/')
-    this.students = await response.json()
-  },
-  methods: {
-    async createStudent(){
-      var response = await fetch('http://localhost:8000/api/students/', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(this.onlystudent)
-      })
-      this.students.push(await response.json())
-    }
-  }, */
 }
 </script>
 

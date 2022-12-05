@@ -5,6 +5,7 @@
             <h2>Danh sách điểm bán hàng</h2>
         </div>
     </div>
+    <CountdownTimer/>
 
     <div class="daily">
         <div class="container">
@@ -17,8 +18,13 @@
 </template>
 
 <script>
+import CountdownTimer from "../components/Countdown.vue";
+
 export default {
     name:"Places",
+    components: {
+        CountdownTimer,
+    }
 }
 </script>
 
