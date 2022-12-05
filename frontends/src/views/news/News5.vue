@@ -115,13 +115,14 @@
                             </div>
                             <div class="col-sm-1"></div>
                     </div>
+
                     <nav aria-label="Page navigation example">
                         <ul class="pagination justify-content-center">
                           <li class="page-item">
                                 <router-link class="page-link" to="/news/news5">«</router-link>
                           </li>
                           <li class="page-item">
-                                <router-link class="page-link" to="/news">1</router-link>
+                                <router-link class="page-link" to="/news/news">1</router-link>
                           </li>
 
                           <li class="page-item">
@@ -142,13 +143,13 @@
 
 <script>
 export default {
-    name: 'News'
+    name: 'News5',
 }
 </script>
 
 <style scoped>
 .global_navigation .global_navigation_banner{
-    background: url('../assets/images/background/global_navigation_bg.jpg') no-repeat center center;
+    background: url('../../assets/images/background/global_navigation_bg.jpg') no-repeat center center;
     background-size: cover;
     min-height: 130px;
 }
