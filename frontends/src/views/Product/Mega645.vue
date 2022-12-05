@@ -1,11 +1,7 @@
 <template>
-<<<<<<< HEAD
     <div class="global_navigation">
         
     </div>    
-=======
->>>>>>> 1d25a11abb97b9aa770fdcb7281450a49d0d7833
-
   <div>
     <div class="gioithieu_banner">
         <div class="container">
@@ -49,7 +45,7 @@
                 <div class="zone col-sm-2"></div>
                 <div class="zone col-sm-8">
                     <p>
-                        <strong>1.  Gồm 4 hạng giải thưởng </strong> và quay số mở thưởng 01 lần trong mỗi kỳ quay số mở thưởng để lựa chọn ra bộ số trúng thưởng gồm 6 số trong các số từ 01 đến 45.
+                        <strong>1.  Gồm 4 hạng giải thưởng và quay số mở thưởng 01 lần trong mỗi kỳ quay          số mở thưởng để lựa chọn ra bộ số trúng thưởng gồm 6 số trong các số từ 01 đến 45.  </strong>
                     </p>
 
                     <p>
@@ -468,10 +464,7 @@ export default {
 </script>
 
 <style scoped>
-<<<<<<< HEAD
 
-=======
->>>>>>> 1d25a11abb97b9aa770fdcb7281450a49d0d7833
 .gioithieu_banner{
     background: url('../../assets/images/background/choi_gioithieu.jpg') no-repeat center center;
     background-size: cover;
