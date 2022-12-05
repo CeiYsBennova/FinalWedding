@@ -67,29 +67,29 @@
                                   <tr style="border: #ddd 1px solid;">
                                       <td>Jackpot</td>
                                       <td style="color:red;"><b>O O O O O O</b></td>
-                                      <td style="text-align:right;">1</td>
-                                      <td style="text-align:right;color:red;"><b>Tối thiểu 120 triệu và tích lũy</b></td>
+                                      <td style="text-align:right;">3</td>
+                                      <td style="text-align:right;color:red;"><b>Tối thiểu 150 triệu và tích lũy</b></td>
                                   </tr>
 
                                   <tr style="border: #ddd 1px solid;">
                                       <td>Giải nhất</td>
                                       <td style="color:red;"><b>O O O O O</b></td>
-                                      <td style="text-align:right;">10</td>
-                                      <td style="text-align:right;color:red;"><b>10.000.000</b></td>
+                                      <td style="text-align:right;">15</td>
+                                      <td style="text-align:right;color:red;"><b>15.000.000</b></td>
                                       </tr>
 
                                   <tr style="border: #ddd 1px solid;">
                                       <td>Giải nhì</td>
                                       <td style="color:red;"><b>O O O O</b></td>
-                                      <td style="text-align:right;">1.000</td>
-                                      <td style="text-align:right;color:red;"><b>300.000</b></td>
+                                      <td style="text-align:right;">1.500</td>
+                                      <td style="text-align:right;color:red;"><b>500.000</b></td>
                                   </tr>
 
                                   <tr style="border: #ddd 1px solid;">
                                       <td>Giải ba</td>
                                       <td style="color:red;"><b>O O O</b></td>
-                                      <td style="text-align:right;">10.000</td>
-                                      <td style="text-align:right;color:red;"><b>100.000</b></td>
+                                      <td style="text-align:right;">12.000</td>
+                                      <td style="text-align:right;color:red;"><b>150.000</b></td>
                                   </tr>
                               </tbody>
                       </table>
@@ -129,45 +129,6 @@
                               <thead>
                                   <tr style="border: #ddd 1px solid;" colspan="2">
                                       <th></th>
-                                      <th style="text-align:right;">BAO 2</th>
-                                      <th></th>  
-                                  </tr>
-                              </thead>
-
-                              <tbody style="text-align:center">
-                                  <tr style="border: #ddd 1px solid;">
-                                      <td> BẠN TRÚNG 2 SỐ</td>
-                                      <td></td>
-                                      <td>20.000</td>
-                                  </tr>
-
-                                  <tr style="border: #ddd 1px solid;">
-                                      <td>BẠN TRÚNG 3 SỐ</td>
-                                      <td></td>
-                                      <td>100.000</td>
-                                  </tr>
-
-                                  <tr style="border: #ddd 1px solid;">
-                                      <td>BẠN TRÚNG 4 SỐ</td>
-                                      <td></td>
-                                      <td>1.000.000</td>
-                                  </tr>
-
-                                  <tr style="border: #ddd 1px solid;">
-                                      <td> BẠN TRÚNG 5 SỐ</td>
-                                      <td></td>
-                                      <td>JACKPOT+2 Triệu</td>
-                                  </tr>
-                              </tbody>
-                      </table>
-                  </div>
-              </div>
-              <div class="col-sm-4">
-                  <div class="kqtable">
-                      <table class="table table-hover" style="background-color: white;">
-                              <thead>
-                                  <tr style="border: #ddd 1px solid;" colspan="2">
-                                      <th></th>
                                       <th style="text-align:right;">BAO 3</th>
                                       <th></th>  
                                   </tr>
@@ -189,7 +150,7 @@
                                   <tr style="border: #ddd 1px solid;">
                                       <td>BẠN TRÚNG 4 SỐ</td>
                                       <td></td>
-                                      <td>2.000.000</td>
+                                      <td>1.500.000</td>
                                   </tr>
 
                                   <tr style="border: #ddd 1px solid;">
@@ -201,11 +162,6 @@
                       </table>
                   </div>
               </div>
-              <div class="col-sm-2"></div>
-          </div>
-
-          <div class="row">
-              <div class="col-sm-2"></div>
               <div class="col-sm-4">
                   <div class="kqtable">
                       <table class="table table-hover" style="background-color: white;">
@@ -233,7 +189,7 @@
                                   <tr style="border: #ddd 1px solid;">
                                       <td>BẠN TRÚNG 4 SỐ</td>
                                       <td></td>
-                                      <td>3.000.000</td>
+                                      <td>2.500.000</td>
                                   </tr>
 
                                   <tr style="border: #ddd 1px solid;">
@@ -245,6 +201,11 @@
                       </table>
                   </div>
               </div>
+              <div class="col-sm-2"></div>
+          </div>
+
+          <div class="row">
+              <div class="col-sm-2"></div>
               <div class="col-sm-4">
                   <div class="kqtable">
                       <table class="table table-hover" style="background-color: white;">
@@ -272,7 +233,7 @@
                                   <tr style="border: #ddd 1px solid;">
                                       <td>BẠN TRÚNG 4 SỐ</td>
                                       <td></td>
-                                      <td>4.000.000</td>
+                                      <td>3.500.000</td>
                                   </tr>
 
                                   <tr style="border: #ddd 1px solid;">
@@ -284,11 +245,6 @@
                       </table>
                   </div>
               </div>
-              <div class="col-sm-2"></div>
-          </div>
-
-          <div class="row">
-              <div class="col-sm-2"></div>
               <div class="col-sm-4">
                   <div class="kqtable">
                       <table class="table table-hover" style="background-color: white;">
@@ -316,7 +272,7 @@
                                   <tr style="border: #ddd 1px solid;">
                                       <td>BẠN TRÚNG 4 SỐ</td>
                                       <td></td>
-                                      <td>5.000.000</td>
+                                      <td>4.500.000</td>
                                   </tr>
 
                                   <tr style="border: #ddd 1px solid;">
@@ -328,6 +284,11 @@
                       </table>
                   </div>
               </div>
+              <div class="col-sm-2"></div>
+          </div>
+
+          <div class="row">
+              <div class="col-sm-2"></div>
               <div class="col-sm-4">
                   <div class="kqtable">
                       <table class="table table-hover" style="background-color: white;">
@@ -355,7 +316,7 @@
                                   <tr style="border: #ddd 1px solid;">
                                       <td>BẠN TRÚNG 4 SỐ</td>
                                       <td></td>
-                                      <td>6.000.000</td>
+                                      <td>5.500.000</td>
                                   </tr>
 
                                   <tr style="border: #ddd 1px solid;">
@@ -367,11 +328,6 @@
                       </table>
                   </div>
               </div>
-              <div class="col-sm-2"></div>
-          </div>
-
-          <div class="row">
-              <div class="col-sm-2"></div>
               <div class="col-sm-4">
                   <div class="kqtable">
                       <table class="table table-hover" style="background-color: white;">
@@ -399,7 +355,7 @@
                                   <tr style="border: #ddd 1px solid;">
                                       <td>BẠN TRÚNG 4 SỐ</td>
                                       <td></td>
-                                      <td>7.000.000</td>
+                                      <td>6.500.000</td>
                                   </tr>
 
                                   <tr style="border: #ddd 1px solid;">
@@ -411,6 +367,11 @@
                       </table>
                   </div>
               </div>
+              <div class="col-sm-2"></div>
+          </div>
+
+          <div class="row">
+              <div class="col-sm-2"></div>
               <div class="col-sm-4">
                   <div class="kqtable">
                       <table class="table table-hover" style="background-color: white;">
@@ -432,7 +393,7 @@
                                   <tr style="border: #ddd 1px solid;">
                                       <td>BẠN TRÚNG 3 SỐ</td>
                                       <td></td>
-                                      <td>400.000</td>
+                                      <td>450.000</td>
                                   </tr>
 
                                   <tr style="border: #ddd 1px solid;">
@@ -445,6 +406,45 @@
                                       <td> BẠN TRÚNG 5 SỐ</td>
                                       <td></td>
                                       <td>JACKPOT+9 Triệu</td>
+                                  </tr>
+                              </tbody>
+                      </table>
+                  </div>
+              </div>
+              <div class="col-sm-4">
+                  <div class="kqtable">
+                      <table class="table table-hover" style="background-color: white;">
+                              <thead>
+                                  <tr style="border: #ddd 1px solid;" colspan="2">
+                                      <th></th>
+                                      <th style="text-align:right;">BAO 10</th>
+                                      <th></th>  
+                                  </tr>
+                              </thead>
+
+                              <tbody style="text-align:center">
+                                  <tr style="border: #ddd 1px solid;">
+                                      <td> BẠN TRÚNG 2 SỐ</td>
+                                      <td></td>
+                                      <td>99.999</td>
+                                  </tr>
+
+                                  <tr style="border: #ddd 1px solid;">
+                                      <td>BẠN TRÚNG 3 SỐ</td>
+                                      <td></td>
+                                      <td>550.000</td>
+                                  </tr>
+
+                                  <tr style="border: #ddd 1px solid;">
+                                      <td>BẠN TRÚNG 4 SỐ</td>
+                                      <td></td>
+                                      <td>8.500.000</td>
+                                  </tr>
+
+                                  <tr style="border: #ddd 1px solid;">
+                                      <td> BẠN TRÚNG 5 SỐ</td>
+                                      <td></td>
+                                      <td>JACKPOT+10 Triệu</td>
                                   </tr>
                               </tbody>
                       </table>
