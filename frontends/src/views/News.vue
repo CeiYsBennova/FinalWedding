@@ -14,9 +14,9 @@
                                     </div>
 
                                     <div class="col-sm-6">
-                                        <a target="_self" href="/vi/tin-tuc/tin-trung-thuong/20020-trao-thuong-jackpot-mega-645-tri-gia-723-ty-dong-cho-nguoi-choi-tai-bac-ninh/">
+                                        <routerLink to="/news/traogiai">
                                             <b style="font-weight:500;color:black;">Trao thưởng Jackpot Mega 6/45 trị giá 72.3 tỷ đồng cho người chơi tại Bắc Ninh</b>
-                                        </a>
+                                        </routerLink>
                                         
                                         <p> Hải Phòng – Ngày 18 tháng 11 năm 2022, ông N.H.H đã nhận giải thưởng Jackpot Mega 6/45 trị giá 72.3 tỷ đồng.</p>
                                         <p class="date"><i class="far fa-calendar-alt"></i> 19/11/2022 14:25</p>

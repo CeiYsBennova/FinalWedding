@@ -127,6 +127,6 @@ export default {
 	border-color: #f9a825;
 }
 .btn {
-	width: 400%;
+	width: 100%;
 }
 </style>

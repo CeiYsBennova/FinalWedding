@@ -17,6 +17,7 @@
 
 	.widget-about {
 		padding-right: 0;
+
 	}
 
 	.widget_contact {
@@ -1029,27 +1030,7 @@
 }
 
 @media (max-width: 480px) {
-	.page-title .page-title-heading .h1-title {
-		font-size: 24px;
-		margin-bottom: 5px;
-	}
-
-	.comment-list li.comment .children li.comment article.comment-body {
-		margin-left: 20px;
-		margin-top: 20px;
-		padding-top: 20px;
-	}
-
-	.comment-list li.comment article.comment-body .comment-text {
-		overflow: visible;
-	}
-
-	.wrap-error .form-search-error input {
-		margin-right: 0;
-		width: 100%;
-		margin-bottom: 10px;
-	}
-
+	
 	.accordion .accordion-toggle {
 		padding-left: 40px;
 		padding-bottom: 20px;
@@ -1067,22 +1048,8 @@
 	.accordion .accordion-toggle .toggle-content {
 		margin-top: 15px;
 	}
-
-	.flex-control-thumbs li {
-		margin: 0 4px;
-	}
-
-	.team-member.style1 {
-		padding: 30px 10px;
-	}
-
-	.coin-convert,
-	.coin-convert.style1 {
-		padding: 20px;
-	}
-
-	.coin-convert .title .sub-title {
-		line-height: 30px;
+	.widget-newletter .subcribe-form {
+		position: relative;
 	}
 
 }
@@ -1106,6 +1073,10 @@
 	.square .counter-box .icon {
 		font-size: 40px;
 		margin-bottom: 15px;
+	}
+	.footer-widgets {
+		width: 30%;
+		display: none;
 	}
 }
 

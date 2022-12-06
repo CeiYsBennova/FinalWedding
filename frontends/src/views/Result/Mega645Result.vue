@@ -1,6 +1,10 @@
 <template>
     <div class="global_navigation">
-        <div class="global_navigation_banner"></div>    
+        <div class="global_navigation_banner">
+            <div class="container">
+            <h1 style="color:white; padding-top:30px;">Kết quả Mega 6/45</h1>
+            </div>
+        </div>    
     </div>
 
     <div class="chitietketqua">
@@ -11,7 +15,7 @@
                         <div class="header">
                             <div class="header-title text-center border-bottom padding_top_30 padding_bottom_20">
                                 <div class="chitietketqua_title">
-                                    <img src="../../assets/images/products/mega645.png" alt="Mega 6/45" style="width:30%;">
+                                    <img src="../../assets/images/products/mega645dog.png" alt="Mega 6/45" style="width:30%;">
                                     <h4 style="font-size:18px; margin-top:10px; margin-bottom:10px;">Kết quả quay số mở thưởng MEGA 6/45</h4>
                                     
                                     <div class="row" >

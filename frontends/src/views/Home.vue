@@ -1,10 +1,10 @@
 <template>
   <div class="Ketqua">
     <div class="container">
-        <div class="box_ketqua box_mega645">
+        <div class="box_ketqua box_power645" style="font-size:16px;">
             <div class="row">
                 <div class="zone col-md-2">
-                    <img src="../assets/images/products/Power655.png" alt="Power 6/55">
+                    <img src="../assets/images/products/power655dog.png" alt="Power 6/55">
                 </div>
 
                 <div class="zone col-md-6 border_left_right">
@@ -45,8 +45,8 @@
                         </div>
                     </div>
                     <p>Các con số dự thưởng phải trùng với số kết quả nhưng không cần theo đúng thứ tự</p>
-                    <p>Truyền Hình Trực Tiếp Trên Kênh VTC3</p>
-                    <p>Từ 18h00 – 18h30 Thứ 3 - Thứ 5 - Thứ 7</p>
+                    <p><b>Truyền Hình Trực Tiếp Trên Kênh VTC3</b></p>
+                    <p><b>Từ 18h00 – 18h30 Thứ 3 - Thứ 5 - Thứ 7</b></p>
                 </div>
 
                 <div class="zone col-md-4" style="text-align:center; padding-top:10px;">
@@ -58,10 +58,10 @@
             </div>
         </div>
 
-        <div class="box_ketqua box_power655">
+        <div class="box_ketqua box_mega655">
             <div class="row">
                 <div class="zone col-md-2">
-                    <img src="../assets/images/products/mega645.png" alt="Mega 6/45">
+                    <img src="../assets/images/products/mega645dog.png" alt="Mega 6/45">
                 </div>
 
                 <div class="zone col-md-6 border_left_right">
@@ -146,6 +146,7 @@ export default {
                 so6 : '',
             },
             mega645s:[],
+
         }   
     },
     async created() {

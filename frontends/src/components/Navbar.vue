@@ -8,7 +8,7 @@
 						    <li class="email"><a href="mailto:20520619@gm.uit.edu.vn" title="email">Email: 20520619@gm.uit.edu.vn</a></li>
 						    <li class="phone"><a href="+84842055700" title="phone">Phone: +84 842055700</a></li>
 					    </ul><!-- flat-infomation -->
-					    <div class="clearfix"></div><!-- clearfix -->
+					    <div class="clearfix"></div>
 				    </div><!-- col-md-12 -->
 			    </div><!-- row -->
 		    </div><!-- container -->
@@ -42,7 +42,7 @@
                                     </li>
 
                                     <li>
-										<router-link to="/results/max3d-result" title="">KẾT QUẢ</router-link>
+										<router-link to="/results/mega645-result" title="">KẾT QUẢ</router-link>
 										<ul class="sub-menu">
 											<li>
 												<router-link to="/results/mega645-result" title="">MEGA 6/45</router-link>
@@ -51,7 +51,7 @@
 										</ul>
 									</li>
                                     <li>
-										<router-link to="/products" title="">SẢN PHẨM</router-link>
+										<router-link to="/products/mega645" title="">SẢN PHẨM</router-link>
 										<ul class="sub-menu">
 											<li>
 												<router-link to="/products/mega645">MEGA 6/45</router-link>

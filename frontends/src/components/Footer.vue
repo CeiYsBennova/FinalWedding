@@ -26,8 +26,8 @@
 			                                <div id="subscribe-msg"></div>
 										</form>
 									</div>
-								</div><!-- /.widget-about -->
-							</div><!-- /.col-md-4 -->
+								</div>
+							</div>
 							<div class="col-md-4">
 								<div class="widget widget_nav_menu">
 									<h3 class="widget-title">Truy cập nhanh</h3>
@@ -36,16 +36,16 @@
 										<li><router-link to="/news" title=""><i class="fa fa-angle-double-right"></i> Tin tức</router-link></li>
 										<li><router-link to="/contact" title=""><i class="fa fa-angle-double-right"></i> Liên hệ</router-link></li>
 										<li><router-link to="/products" title=""><i class="fa fa-angle-double-right"></i> Sản phẩm</router-link></li>
-									</ul><!-- /.one-half -->
+									</ul>
 									<ul class="menu-footer one-half">
 										<li><router-link to="/faqs" title=""><i class="fa fa-angle-double-right"></i> FAQ</router-link></li>
 										<li><router-link to="/" title=""><i class="fa fa-angle-double-right"></i> Term</router-link></li>
 										<li><router-link to="/" title=""><i class="fa fa-angle-double-right"></i> Legal</router-link></li>
 										<li><router-link to="/" title=""><i class="fa fa-angle-double-right"></i> Pivacy</router-link></li>
-									</ul><!-- /.one-half -->
+									</ul>
 									<div class="clearfix"></div>
-								</div><!-- /.widget_nav_menu -->
-							</div><!-- /.col-md-4 -->
+								</div>
+							</div>
 							<div class="col-md-4">
 								<div class="widget widget_contact">
 									<h3 class="widget-title">LIÊN HỆ</h3>
@@ -123,11 +123,6 @@
 			</div><!-- /.footer-bottom -->	
 		</div><!-- /#footer_background -->
 		
-		<div class="button-go-top">
-			<router-link to="/" title="" class="go-top">
-				<i class="fa fa-chevron-up"></i>
-			</router-link>
-		</div><!-- /.button-go-top -->
   </div>
 </template>
 
@@ -142,6 +137,40 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+@media (max-width: 991px)
+{
+	.footer-widgets {
+		display: flex;
+	}
+}
 
+@media (max-width: 400px) {
+	.footer-widgets {
+		width: 100%;
+		display: block;
+	}
+	.container {
+		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.row {
+		margin-left: -20px;
+		margin-right: -15px;
+	}
+	.widget-text {
+		padding-left: 100px;
+	}
+	.widget .widget-newletter {
+		padding-left: 80px;
+	}
+	.widget .widget-newletter .widget-title {
+		text-align: center;
+	}
+	.col-md-4 {
+		width: 100%;
+		padding-bottom: 20px;
+	}
+}
 </style>

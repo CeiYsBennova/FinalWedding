@@ -17,7 +17,7 @@
                                     </div>
 
                                     <div class="col-sm-6">
-                                        <img src="../../assets/images/products/max3d.jpg" alt="">
+                                        <img src="../../assets/images/products/mega645dog.png" alt="">
                                     </div>
 
                                     <div class="col-sm-3">
