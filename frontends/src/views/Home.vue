@@ -14,7 +14,7 @@
                                 <div class="col-sm-6">
                                     <p><b>Jackpot 1 Power 6/55 ước tính</b></p>
                                     <div class="so_tien">
-                                        <h3>{{ power655.jackpot1 }}</h3>
+                                        <h3 >{{ power655.jackpot1 }}</h3>
                                         <p style="display:inline">VNĐ</p>
                                     </div>
                                 </div>
@@ -69,7 +69,7 @@
                         <div class="tong_tien" v-if="mega645.id == mega645s.length">
                             <div class="row">
                                 <div class="col-sm-6">
-                                    <p><b>Jackpot 1 Power 6/55 ước tính</b></p>
+                                    <p><b>Jackpot 1 Power 6/45 ước tính</b></p>
                                     <div class="so_tien">
                                         <h3>{{ mega645.jackpot }}</h3>
                                         <p style="display:inline">VNĐ</p>
@@ -180,6 +180,7 @@ export default {
 
 .box_ketqua_noidung{
     text-align: left;
+
 }
 .border_left_right{
     border-left: 1px solid black;
@@ -192,7 +193,9 @@ export default {
     position: relative;
 }
 .day_so_ket_qua_v2{
-    padding-bottom: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px;
+    padding-bottom: 20fr;
 }
 
 .box_ketqua_noidung .day_so_ket_qua h5{
@@ -207,13 +210,13 @@ export default {
     width: 25%;
 }
 .so_tien{
-    color: rgb(167, 39, 39);;
+    color: rgb(167, 39, 39);
     margin-bottom: 20px;
 }
 .so_tien h3 {
     display: inline-block;
     margin: 0px 3px 6px 0;
-    font-size: 30px;
+    font-size: 25px;
     color: rgb(167, 39, 39);
 }
 .day_so_ket_qua_v2 .bong_tron.small {

@@ -102,6 +102,8 @@ export default {
 <style scoped>
 .flex-view {
   display: flex;
+  flex-wrap: wrap;
+  
 }
 .completedSteps {
   font-size: 35px;
