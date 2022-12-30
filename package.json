@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@chenfengyuan/vue-countdown": "^2.1.0",
+    "axios": "^1.2.2",
     "vue": "^3.2.45",
     "vue-radial-progress": "^0.3.2"
   }
