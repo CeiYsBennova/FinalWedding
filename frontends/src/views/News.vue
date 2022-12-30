@@ -10,7 +10,7 @@
                             <div class="col-sm-5"> 
                                 <div class="row">
                                     <div class="col-sm-6">
-                                        <img src="https://media.vietlott.vn//main.vi/11.2022/tkbbt/avatar/6594e55b-f0ee-4b5d-b58a-a1980869e962.jpg" alt="">
+                                        <img src="https://media.vietlott.vn//main.vi/11.2022/tkbbt/avatar/6594e55b-f0ee-4b5d-b58a-a1980869e962.jpg" alt="rao thưởng Jackpot Mega 6/45 trị giá 72.3 tỷ đồng cho người chơi tại Bắc Ninh">
                                     </div>
 
                                     <div class="col-sm-6">
@@ -171,6 +171,6 @@ export default {
 }
 .tintuc img {
     width: 100%;
-    height: 102%;
+    height: 100%;
 }
 </style>

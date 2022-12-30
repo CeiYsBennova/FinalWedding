@@ -17,7 +17,7 @@
 					</div><!-- /.col-md-6 -->
 					<div class="col-md-6">
 						<div class="single-image center">
-							<img src="../assets/images/products/Power655.png" alt="" style="width:50%;">
+							<img src="../assets/images/products/power655dog.png" alt="" style="width:50%;">
 						</div>
 					</div><!-- /.col-md-6 -->
 				</div><!-- /.row -->

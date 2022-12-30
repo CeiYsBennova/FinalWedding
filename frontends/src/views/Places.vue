@@ -8,8 +8,10 @@
   </div>
 
   <div class="daily">
-        <div class="container">
+        <div class="container1">
             <div class="row">
+                <div class="col-sm-4">
+                </div>
                 <div class="col-sm-4">
                     <input v-model="search" placeholder="Từ khóa" style="height:46px;width:300px;"/>
                 </div>
@@ -23,8 +25,9 @@
                     </select>
                 </div>
             </div>
+        </div>
 
-            <div class="container">
+        <div class="container">
                 <div class="row" style="padding-top:40px;">
                     <h2><i>Danh sách đại lý trên địa bàn</i></h2>
                     <div class="content">
@@ -52,7 +55,6 @@
                 </div>
             </div>
         </div>
-    </div>
 </template>
 
 <script>
@@ -224,6 +226,12 @@ export default {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: 9fr 1fr 2fr;
+    grid-template-rows: 50px 50px;
 }
 
 .row{
